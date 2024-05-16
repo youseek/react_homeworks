@@ -1,0 +1,11 @@
+dt::before {
+    content: "• ";
+    color: black;
+}
+
+dd::before {
+    content: "• ";
+    color: black;
+    margin-left: 20px;
+}
+
