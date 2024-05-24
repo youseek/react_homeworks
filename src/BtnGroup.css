@@ -1,0 +1,33 @@
+.btn-group {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn.left {
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn.right {
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn.active {
+    background-color: #009f;
+    color: #fff;
+    border-color: #009f;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+}

@@ -1,16 +1,13 @@
 import React from 'react';
-import ListGroup from './ListGroup';
+import BtnGroup from './BtnGroup';
 
-function App() {
-  return (
-      <div className="App">
-        <h1>List Group Example</h1>
-        <ListGroup>
-          <p>one</p>
-          <p>two</p>
-        </ListGroup>
-      </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <h1>My App</h1>
+            <BtnGroup />
+        </div>
+    );
+};
 
 export default App;
